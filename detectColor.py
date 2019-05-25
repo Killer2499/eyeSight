@@ -38,8 +38,7 @@ colorRanges = {
     "Dark Red" : ([0, 200, 200], [7, 200, 200])
 }
 
-
-
+#call function to detect color in the image
 def colorDetection(image):
     #Converts image from BGR to RGB
     BGRimage = cv2.imread(image)
